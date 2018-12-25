@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.example.admin.kotlintest.ViewOne
+        android:background="@color/red_color"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.example.admin.kotlintest.ViewOne>
+    <com.example.admin.kotlintest.ViewTwo
+        android:background="@color/green_color"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.example.admin.kotlintest.ViewTwo>
+    <com.example.admin.kotlintest.ViewThree
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.example.admin.kotlintest.ViewThree>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

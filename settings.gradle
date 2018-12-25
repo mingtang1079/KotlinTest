@@ -1,0 +1,9 @@
+include ':app'
+include ':baselibrary'
+project(':baselibrary').projectDir=new File('../common/baselibrary')
+include ':photopicker'
+project(':photopicker').projectDir=new File('../common/photopicker')
+include ':adressselectorlib'
+project(':adressselectorlib').projectDir=new File('../common/adressselectorlib')
+include ':kotlin-ext'
+project(':kotlin-ext').projectDir=new File('../common/kotlin-ext')
