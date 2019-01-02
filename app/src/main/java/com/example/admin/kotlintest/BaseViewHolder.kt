@@ -35,5 +35,6 @@ class BaseViewHolder : RecyclerView.ViewHolder {
 
     }
 
-    var convert: LightAdapter.Convert;
+    lateinit   var convert: LightAdapter.Convert;
+
 }
