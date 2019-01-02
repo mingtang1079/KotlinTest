@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.v7.widget.Toolbar
 import android.view.View
 import com.appbaselib.base.BaseActivity
+import com.appbaselib.ext.toast
 import com.foamtrace.photopicker.PhotoPickerActivity
 import com.foamtrace.photopicker.intent.PhotoPickerIntent
 import com.safframework.ext.click
@@ -20,8 +21,11 @@ class MainActivity : BaseActivity() {
     override fun initView(mSavedInstanceState: Bundle?) {
 
         button.click {
-        //    startActivity(Intent(this, Main2Activity::class.java))
-           startActivity(PhotoPickerIntent(this))
+            //    startActivity(Intent(this, Main2Activity::class.java))
+            startActivity(PhotoPickerIntent(this))
+
+            toast("fsdf")
+
         }
 
 
